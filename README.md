@@ -31,17 +31,10 @@ Usage of bootstrap
 More usage of bootstrap, nav bar 
 ===> base.html line 26-48
 
-## Progress As Of 10/30/20:
-* Created functional drop down menu
-* Added 'About Us' pages that have routes to the pages that all work(code created on main.py page)
-* Titles on every page that are correctly formatted
-* Jokes on Knock Knock page
-* Information on History of Comedy page 
-* Worked out how to run project on intelliJ locally so we can view website on localhost
+## Use Of AP CSP Requirements:
+* Big Idea 1: Creative Computing
+* Big Idea 2: Data
+* Big Idea 3: Algorithms and Programming
+* Big Idea 4: Computer Systems and Networks
+* Big Idea 5: Impact of Computing
 
-## Goals For Next Week:
-* All pages have information 
-* Get photos on pages 
-* Have links to videos for Comedians Through The Decades page 
-  * Potentially research/have videos embedded into our website 
-* Have joke of the day feature or search bar for jokes on different pages as our 'wow' factor 
