@@ -45,6 +45,11 @@ def ava_route():
 def lucas_route():
   return render_template("lucas.html", projects=projects.setup())
 
+#connects /submit path of server to render submit.html
+@app.route('/submit')
+def submit_route():
+  return render_template("submit.html", projects=projects.setup())
+
 @app.route("/playground")
 def playground_route():
   return render_template("playground.html")
