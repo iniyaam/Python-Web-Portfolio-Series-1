@@ -4,5 +4,20 @@
 
 {% block pagecontent %}
 <h1><u>Submit A Joke Here:</u></h1>
-
+</div>
+</div>
+</div>
+<form>
+    <div class="form-group">
+        <label for="exampleInputName1">First and Last Name:</label>
+        <input type="name" class="form-control" id="exampleInputName1" aria-describedby="nameHelp" placeholder="Enter Name">
+        <small id="nameHelp" class="form-text text-muted">*required.</small>
+    </div>
+    <div class="form-group">
+        <label for="exampleInputJoke1">Joke:</label>
+        <input type="name" class="form-control" id="exampleInputJoke1" aria-describedby="nameHelp" placeholder="Enter a joke">
+        <small id="nameHelp" class="form-text text-muted">*required.</small>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
 {%endblock%}
