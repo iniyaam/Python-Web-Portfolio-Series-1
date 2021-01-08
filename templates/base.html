@@ -1,4 +1,4 @@
-<!-- Ava's Page on the website -->
+
 <!doctype html> {% set source = projects.get_source() %}
 <!-- source of project dict -->
 {% set projects = projects.get_projects() %}
@@ -10,10 +10,10 @@
   <head>
    <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-   <title>KILA Comedy</title>  
+   <title>Corona Virus Stats</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet"/>
     <link href="main.css" type="text/css" rel="stylesheet"/>
-      <!-- scripts for drop down menu--!>
+
     <script type="text/javascript" src="klassenlijst.js"></script> 
     <script type="text/javascript" src="hamburger.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
@@ -25,29 +25,29 @@
     <body style="background-color:#8a8686">
       <!-- Navigation Bar from bootstrap -->
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">{{name}}</a>
+        <a class="navbar-brand" href="#">COVID STATS</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
+            <div>
               <a class="nav-link active" href="/">Home <span class="sr-only">(current)</span></a>
-              <a class="nav-link" href="/historyofcomedy">History of Comedy</a>
-              <a class="nav-link" href="/comediandecades">Comedians Through The Decades</a>
-              <a class="nav-link" href="/knock">Jokes</a>
-                <a class="nav-link" href="/submit">Submit A Joke</a>
+                <a class="nav-link" href="/USStats">US Stats</a> </div>
+
         <!--code from bootstrap: drop down menu-->
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              About Us
+              Big States
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="/iniyaa">Iniyaa</a>
-              <a class="dropdown-item" href="/ketki">Ketki</a>
-              <a class="dropdown-item" href="/ava">Ava</a>
-              <a class="dropdown-item" href="/lucas">Lucas</a>
-            <!--div class="dropdown-divider"></div--!>
-              <!---a class="dropdown-item" href="#">The Class</a---!>
+              <a class="dropdown-item" href="/MA">MA</a>
+              <a class="dropdown-item" href="/OR">OR</a>
+              <a class="dropdown-item" href="/CA">CA</a>
+              <a class="dropdown-item" href="/TX">TX</a>
+              <a class="dropdown-item" href="/FL">FL</a>
+              <a class="dropdown-item" href="/NY">NY</a>
+              <a class="dropdown-item" href="/NJ">NJ</a>
+
             </div>
         </li>
     </div>
@@ -58,13 +58,12 @@
                 <!--social media icons-->
                 {% block info %}
                 <!-- jinja -->
-                <a <h5>{{name}}</h5></a>
+                <a><h5>Corona Virus</h5></a>
                 <a href={{github}} target="_blank"><i class="fa fa-github"></i></a>
                 <a href={{youtube}} target="_blank"><i class="fa fa-youtube-play"></i></a>
                 <a href={{twitter}} target="_blank"><i class="fa fa-twitter"></i></a>  
                 {% endblock %}
-            </div>  
-          </div>
+
         <div class="row">
           {% block pagecontent %}
           {% endblock %}
